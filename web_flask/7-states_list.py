@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+'''
+    starts a Flask web application
+'''
 from flask import Flask
 from models import storage, State
 from flask import render_template
